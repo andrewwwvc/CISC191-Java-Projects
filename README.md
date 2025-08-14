@@ -1,4 +1,4 @@
-Projects and Data Structure(s) Used (M#):  
+**__Projects and Data Structure(s) Used (M#):__**  
 M1: Single-Dimension Arrays  
 M2: 2-Dimensional Arrays  
 M3: Utilizing Beginning Classes  
