@@ -1,0 +1,45 @@
+My name is Andrew Castro and today we will be talking about Single and Multi Dimensional arrays
+
+click
+
+What is an array?
+An array is a data structure that consists of elements of the same data type such as:
+	integers, strings, characters, etc.
+Each element in an array can be identified by the arrays index, which starts at 0
+For example: here we have an integer array that holds 3 elements, 1 2 and 3, making the size of this array be 3, BUT the index for these elements go as 1 having an index of 0,
+2 having an index of 1 and 3 having an index of 2.
+
+click
+
+When to use an array vs variable
+Variables should be used if the data set are different data types
+	For example: use variables if that data you are working with are integers and strings
+An array should be used when holding data sets of the same data type
+	This allows us to access the group data in any order
+	For example: We can have an array of peoples ages, an array of colors and an array of test scores
+
+click
+
+How to Define arrays
+	We can define single dimensional arrays by stating its data type followed by a set of square brackets
+	For multidimensional arrays, we follow the same syntax as single dimensional arrays however we include another set of square brackets to define another dimension 
+	in the array
+	For example: we initialize a single dimension character array with one set of square brackets and call it array1. Array1 holds three characters, a, b and c
+		In the next one, we have a 2D integer array called array 2 that holds 3 rows and 3 columns with the first array holding 20, 21, 22, the second array 23, 24 35
+		and the last array holding 26, 27, and 28
+click
+
+How to Write a method with an array as a parameter
+Similar to how we initialize an array, we indicate the dimension of the array that the method can take using a set of square brackts and name in the parameters of the method
+For example:
+	Here we have a method called copy that will take a character array as its parameter
+	Antoher method we have is the bubbleSort method that can take in a single dimensional integer array
+	Finally, we have a method called addLeftToRightDiagonal that can take in a 2 dimensional integer array
+
+click
+
+Using Array in Method
+Here we have a method called copy that will return a character array and takes in a character array as its parameters
+In this method we initialize a character array called copy that is the same length as the array taken from its parameters
+We utilize a for loop to traverse the given array to copy the elements into our new array
+Finally, once each element is copied into the new array we return the copied array
